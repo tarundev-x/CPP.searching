@@ -4,7 +4,7 @@ int BSI(int l,int h,int k,int a[])
 {
 		while(l<=h)
 	{
-       int mid=(l+h)/2;//(low+(low-high))/2
+       int mid=(l+h)/2;//mid=low+(low-high)/2
 		if(a[mid]==k)
 		{
 			return mid;
